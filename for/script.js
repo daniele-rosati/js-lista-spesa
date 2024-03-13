@@ -22,3 +22,12 @@ const list = [
     'Pomodori',
     'Piatti pronti'
 ];
+
+let divSpesa =document.getElementById("spesa");
+
+// stampa con for degli elementi
+
+for (let i=0; i < list.length; i++){
+    // console.log(list[i]);
+    divSpesa.innerHTML += list[i] + "<br>";
+}
